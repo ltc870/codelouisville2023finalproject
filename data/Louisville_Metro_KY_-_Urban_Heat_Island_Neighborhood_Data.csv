@@ -80,53 +80,53 @@
 79,Bon Air,1,17,5349,101,138,40218
 80,Bonnycastle,2,4,1194,22,21,40205
 81,Bowman,0,17,2545,100,100,40207
-82,Briarwood,0,3,514,14,27,
-83,Brownsboro Farm,0,3,277,10,1,
-84,Brownsboro Zorn,1,11,1533,53,37,
+82,Briarwood,0,3,514,14,27,40252
+83,Brownsboro Farm,0,3,277,10,1,40241
+84,Brownsboro Zorn,1,11,1533,53,37,40206
 85,Buechel,1,26,4036,129,235,40218
-86,Butchertown,0,13,3606,106,291,
-87,California,18,14,5298,121,462,
-88,Cambridge,0,0,23,1,0,
-89,Camp Taylor,0,4,577,20,29,
-90,Central Business District,160,5,7925,139,771,
+86,Butchertown,0,13,3606,106,291,40206
+87,California,18,14,5298,121,462,40210
+88,Cambridge,0,0,23,1,0,40220
+89,Camp Taylor,0,4,577,20,29,40213
+90,Central Business District,160,5,7925,139,771,40203
 91,Cherokee Gardens,0,2,145,8,0,40280
-92,Cherokee Seneca,0,8,939,34,16,
-93,Cherokee Triangle,6,9,3015,64,75,
-94,Chickasaw,0,17,2391,77,64,
-95,Clifton,0,6,1811,38,104,
-96,Clifton Heights,0,8,1465,48,63,
-97,Cloverleaf,0,10,1674,41,40,
-98,Coldstream,0,1,53,2,0,
-99,Creekside,0,1,34,1,2,
-100,Crescent Hil,2,24,4053,122,146,
-101,Crossgate,0,1,65,7,15,
-102,Deer Park,2,6,1898,29,48,
+92,Cherokee Seneca,0,8,939,34,16,40204
+93,Cherokee Triangle,6,9,3015,64,75,40204
+94,Chickasaw,0,17,2391,77,64,40211
+95,Clifton,0,6,1811,38,104,40206
+96,Clifton Heights,0,8,1465,48,63,40206
+97,Cloverleaf,0,10,1674,41,40,40216
+98,Coldstream,0,1,53,2,0,40245
+99,Creekside,0,1,34,1,2,40241
+100,Crescent Hil,2,24,4053,122,146,40206
+101,Crossgate,0,1,65,7,15,40222
+102,Deer Park,2,6,1898,29,48,40205
 103,Douglass Hills,7,30,4227,131,103,40243
-104,Edgewood,0,16,2203,81,107,
-105,Fairdale,0,57,3555,153,204,
-106,Fairgrounds,61,15,6586,154,437,
-107,Fern Creek,0,51,4831,182,142,
-108,Fincastle,0,3,184,8,3,
-109,Forest Hills,0,4,2541,39,101,
-110,Germantown,3,8,2202,42,70,
-111,Glenview,0,4,550,26,3,
-112,Glenview Hills,0,1,130,6,0,
-113,Glenview Manor,0,3,645,14,18,
-114,Goose Creek,0,1,105,5,0,
-115,Graymoor-Devondale,0,14,2067,58,70,
-116,Green Spring,0,2,200,9,0,
-117,Hawthorne,0,9,956,45,33,
-118,Hayfield Dundee,0,8,1436,45,35,
+104,Edgewood,0,16,2203,81,107,40213
+105,Fairdale,0,57,3555,153,204,40118
+106,Fairgrounds,61,15,6586,154,437,40209
+107,Fern Creek,0,51,4831,182,142,40291
+108,Fincastle,0,3,184,8,3,40241
+109,Forest Hills,0,4,2541,39,101,40205
+110,Germantown,3,8,2202,42,70,40204
+111,Glenview,0,4,550,26,3,40025
+112,Glenview Hills,0,1,130,6,0,40222
+113,Glenview Manor,0,3,645,14,18,40222
+114,Goose Creek,0,1,105,5,0,40241
+115,Graymoor-Devondale,0,14,2067,58,70,40222
+116,Green Spring,0,2,200,9,0,40241
+117,Hawthorne,0,9,956,45,33,40205
+118,Hayfield Dundee,0,8,1436,45,35,40205
 119,Hazelwood,0,10,1857,42,59,40214
-120,Heritage Creek,0,3,316,11,1,
-121,Hickory Hill,0,0,9,0,0,
-122,Highland Park,1,6,1073,47,87,
-123,Higlands ,1,3,1031,16,22,40205
-124,Highlands Douglas,0,6,2208,38,47,
-125,Highview,0,87,6702,285,307,
-126,Hikes Point,0,14,3545,78,97,
-127,Hills And Dales ,0,1,60,3,0,
-128,Hollow Creek,0,7,502,19,9,
-129,Hollyvilla,0,3,144,10,9,
-130,Houston Acres,0,1,37,1,1,
-131,Hurstbourne,0,18,3832,93,66,
+120,Heritage Creek,0,3,316,11,1,40219
+121,Hickory Hill,0,0,9,0,0,40241
+122,Highland Park,1,6,1073,47,87,40209
+123,Higlands ,1,3,1031,16,22,40204
+124,Highlands Douglas,0,6,2208,38,47,40205
+125,Highview,0,87,6702,285,307,40228
+126,Hikes Point,0,14,3545,78,97,40220
+127,Hills And Dales ,0,1,60,3,0,40241
+128,Hollow Creek,0,7,502,19,9,40228
+129,Hollyvilla,0,3,144,10,9,40118
+130,Houston Acres,0,1,37,1,1,40220
+131,Hurstbourne,0,18,3832,93,66,40222
