@@ -1,4 +1,4 @@
-# Greenspace vs Crime Analysis
+# Number of Trees Planted vs Crime in Louisville, KY Analysis
 
 ---
 
@@ -10,7 +10,7 @@ This data analysis project is based on several studies done based on several stu
 
 [The Impact of Green Space on Violent Crime in Urban Environments: An Evidence Synthesis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6950486/)
 
-This project focused on the city of Louisville, KY and looked at the potential relationship between the number of trees planted and the amount of crime in a given zip-code.
+This project focused on the city of Louisville, KY and looked at the potential relationship between the number of trees planted and the amount of crime in a given zip code.
 
 ---
 
@@ -52,3 +52,8 @@ This project was developed utilizing Visual Studio Code as the IDE, Python progr
    - I annotated my code with markdown cells in Jupyter Notebook; I wrote clear code comments; and I provided a README file.
 
 ## Findings
+
+Unfortunately, the findings of this study ended up being contrary to the original hypothesis of this project. I found that as the amount of trees planted increased per zip code, the amount of crime increased, but this finding was very, very weak correlation. This finding however was in line with the studies found in [The Impact of Green Space on Violent Crime in Urban Environments: An Evidence Synthesis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6950486/). Although the researchers found that most of research pointed at a reduction of crime with an increase of greenery, there were studies that found the opposite, that the amount of greenery did not affect the amount of crime in a neighborhood.
+
+Some points to think about with this project: - This project did not take into account that neighborhoods can be in multiple zip codes. - This project also did not look at if there was a relationship between the specific type of crime vs. the amount of trees planted for a given zip code.
+I believe these points should be taken into account before ruling out the possibility that nature does not play a role in reducing crime in Louisville, KY. It could very well be possible that an increase in nature could assist in decreasing a specific kind of crime.
