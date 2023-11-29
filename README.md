@@ -1,8 +1,6 @@
-# Code Louisville Final Project
+# Greenspace vs Crime Analysis
 
 ---
-
-This project was created to serve as my final project for Code Louisville's Data Science track. This readme file will explain the details of the project and the tools utilized to complete the project.
 
 ## Background
 
@@ -12,37 +10,45 @@ This data analysis project is based on several studies done based on several stu
 
 [The Impact of Green Space on Violent Crime in Urban Environments: An Evidence Synthesis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6950486/)
 
-This project focused on the city of Louisville, KY and looked at the potential relationship between the number of trees planted and the amount of crime in a given zip-code. Before discussing the findings of the project, I will first outline the project requirements detailed by Code Louisville for completing the Data Science Track.
+This project focused on the city of Louisville, KY and looked at the potential relationship between the number of trees planted and the amount of crime in a given zip-code.
 
 ---
 
-## Requirements
+## Question Addressed by This Project
 
----
+The main question for this project is, does the number of crime instances in a zip code correlate with the amount of trees planted in that same zip code. More specifically, if there is a higher number of trees planted in a zip code, then does that mean there will be a lower number of crime instances in that zip code.
 
-#### GitHub Repository and Commits:
+## Gathering the data
 
-This project was uploaded to GitHub by way of Git. At the creation of this README.md file, I have 25 commits.
+The data utilized in this study was retrieved from [Louisville Metro Open Data](https://data.louisvilleky.gov/). The two datasets utilized was [Louisville Metro KY - Urban Heat Island Neighborhood Data](https://data.louisvilleky.gov/datasets/louisville-metro-ky-urban-heat-island-neighborhood-data/explore) and [Louisville Metro KY - Crime Data 2022](https://data.louisvilleky.gov/datasets/louisville-metro-ky-crime-data-2022/explore), with both datasets being developed in 2022.
 
-#### README File:
+## How to Run The Project
 
-You are currently reading the README.md file that must be included with the project. Within this file, I will discuss the 5 features I implemented from Code Louisville's feature list. I will also include instructions on how to run this program.
+This project was developed utilizing Visual Studio Code as the IDE, Python programming language, Jupyter Notebook, and Pandas, Matplotlib, and Seaborn libraries.
 
-#### Data Analysis Implementation
+1. Fork the repository to your GitHub account and clone it to your local machine.
+2. To run the program, I utilized Visual Studio Code, but you can use any IDE of your choice (I believe PyCharm's free version only allows you to read Notebooks, not edit them).
+3. You will find a `requirements.txt` file within this repo which can be used to create a virtual environment.
+   - To create the virtual environment:
+     - Linux/macOS: `python 3 -m venv venv`
+     - Windows: `python -m venv venv`
+   - Activating the virtual environment:
+     - Linux/macOS: `source venv/bin/activate`
+     - Windows: `venv\Scripts\activate`
+   - Then install the packages listed in the requirements.txt file: `pip install -r requirements.txt`
+   - To deactivate the virtual environment after running the project: `deactivate`
 
-The data was pulled from two csv data sets retrieved from [Louisville Metro Open Data](https://data.louisvilleky.gov/). The data was pulled from [Louisville Metro KY - Crime Data 2022](https://data.louisvilleky.gov/datasets/louisville-metro-ky-crime-data-2022/explore) and [Louisville Metro KY - Urban Heat Island Neighborhood Data](https://data.louisvilleky.gov/datasets/louisville-metro-ky-urban-heat-island-neighborhood-data/explore). Both datasets were published in 2022.
+## Code Louisville Project Requirements
 
-To analyze the data, Jupyter Notebooks was utilized along with Python and its libraries Matplotlib and Seaburn.
-
-#### Feature Selection
-
-1. **Loading Data**
-   - Performed a pandas merge between the two aforementioned datasets.
-2. **Clean and operate on the data while combining them**
-   - Removed all of the null values in both datasets before merging them, then after merging them, removing the values that resulted in a null value.
-3. **Visualize/Present your data**
-   - Made 3 matplotlib or seaborn visualizations to display data.
+1. **Load Data**
+   - I read from two CSV files
+2. **Clean and Operate on the Date While Combining Them**
+   - I removed all of the null values from both csv datasets individually, then I combined both csv datasets by using a pandas merge on the ZIP_CODE column. I then removed the resulting null values from the new dataset.
+3. **Visualize/Present Your Data**
+   - I made 3 matplotlib or seaborn visualizations to display my data.
 4. **Best practices: Enhance your project to a higher tier that will impress employers and help other programmers understand your project.**
-   - Utilized a virtual environment. Instructions on how utilize the virtual environment are within this README.md file.
-5. **Interpretation of your data**
-   - Annotated code with markdown cells in Jupyter Notebook, and wrote clear code comments.
+   - I utilized a virtual environment and I included instructions in this README on how a user should set one up.
+5. **Interpretation of Data**
+   - I annotated my code with markdown cells in Jupyter Notebook; I wrote clear code comments; and I provided a README file.
+
+## Findings
